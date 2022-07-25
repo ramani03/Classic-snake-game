@@ -1,0 +1,58 @@
+.game{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background:linear-gradient(purple ,orange);
+    justify-self: center;
+    position: relative;
+    top: 50%;
+    left: 32%;
+    
+    }
+    .ins{
+        text-align: start;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+body{
+    
+    background-size: 100vw 100vh;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(https://wallpaperaccess.com/full/4434748.jpg);
+}
+.game div{
+    width: 50px;
+    height: 50px;
+
+}
+.snake{
+    background-color:black;
+    
+}
+.marks{
+    border: 5px solid purple;
+    padding: 3px;
+    width:130px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    top: 50%;
+    left: 45%;
+    position:relative;
+    
+}
+.fruit{
+    background-color: red;
+    
+}
+.start{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 4px;
+}
